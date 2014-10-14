@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Mon Oct 13 17:57:41 EEST 2014:
+ Производится загрузка Derby версии The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): экземпляр a816c00e-0149-0a03-cbf8-0000028d6e40
+в каталоге базы данных C:\Users\HoncharovK\MyDB sun.misc.Launcher$AppClassLoader@749cd006 
+
+java.vendor=Oracle Corporation
+java.runtime.version=1.7.0_51-b13
+user.dir=C:\work\codesource\git_my\CRM
+os.name=Windows 7
+os.arch=amd64
+os.version=6.1
+derby.system.home=null
+Запущен загрузчик классов базы данных - derby.database.classpath=''
