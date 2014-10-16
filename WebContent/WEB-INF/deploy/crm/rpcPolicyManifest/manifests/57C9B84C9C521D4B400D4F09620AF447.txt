@@ -1,2 +1,0 @@
-serviceClass: com.company.crm.client.remoteservice.AppService
-path: C40551AFA76DD53D7FCB10F4539E859C.gwt.rpc

@@ -15,4 +15,8 @@
 		<url-pattern>/crm/appservice</url-pattern>
 	</servlet-mapping>
 	
+<!-- 	<listener>
+		<listener-class>com.company.crm.server.remoteservice.LoggerInit</listener-class>
+	</listener> -->
+	
 </web-app>
