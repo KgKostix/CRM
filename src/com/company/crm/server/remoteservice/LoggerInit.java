@@ -10,6 +10,8 @@ import javax.servlet.ServletContextListener;
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
+import com.company.crm.server.dbutil.HibernateSessionFactory;
+
 
 
 
@@ -19,7 +21,7 @@ public class LoggerInit implements ServletContextListener {
 	
 	@Override
 	public void contextInitialized(ServletContextEvent sce) {
-		try {
+		/*try {
 			InputStream inStreem = null;
 			if(System.getProperty("log4j.properties") != null) {
 				inStreem = new FileInputStream(System.getProperty("log4j.properties"));							
@@ -33,7 +35,9 @@ public class LoggerInit implements ServletContextListener {
 			logger.info("log4j logging has been initialized");
 		} catch (Exception e) {
 			logger.error("log4j logging was not initialized", e);
-		}
+		}*/
+		
+		HibernateSessionFactory.getSessionFactory().close();;
 	}
 
 	@Override

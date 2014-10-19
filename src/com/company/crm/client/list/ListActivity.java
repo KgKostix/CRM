@@ -58,7 +58,7 @@ public abstract class ListActivity extends AbstractMainActivity  {
 						//	list.add((ListItem) rec);
 						//}
 						updateRowData(visibleRange.getStart(), list);
-						//updateRowCount(result.getAllCount(), true);
+						updateRowCount(list.size(), true);
 						
 					}
 				});
@@ -89,6 +89,6 @@ public abstract class ListActivity extends AbstractMainActivity  {
 	
 	public abstract String getLinkId();
 	
-	/*Тип записи */
+	/*пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ */
 	public abstract ItemType getItemType();
 }

@@ -1,5 +1,6 @@
 eclipse.preferences.version=1
-lastWarOutDir=C\:/Users/HoncharovK
+jarsExcludedFromWebInfLib=
+lastWarOutDir=D\:/work/java_projekt/git/CRM/target/crm-1
 launchConfigExternalUrlPrefix=
-warSrcDir=WebContent
+warSrcDir=D\:/work/java_projekt/git/CRM/WebContent
 warSrcDirIsOutput=false

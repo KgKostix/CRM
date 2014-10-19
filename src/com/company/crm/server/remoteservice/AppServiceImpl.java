@@ -13,11 +13,12 @@ public class AppServiceImpl extends RemoteServiceServlet implements AppService {
 	
 	@Override
 	public RemoteResponse callRemoteComand(RemoteComand remoteComand) throws AppServerException {
-		if (curentUser == null) {
-			AppServerException appServerException = new AppServerException("401 Unauthorized");
-			appServerException.setExceptionCode("401");
-			throw appServerException;
-		} 
+		//if (curentUser == null) {
+		//	AppServerException appServerException = new AppServerException("401 Unauthorized");
+		//	appServerException.setExceptionCode("401");
+		//	throw appServerException;
+		//} 
+		System.out.println("Call server!");
 		return new RemoteResponse();
 	}
 
